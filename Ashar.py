@@ -6,7 +6,6 @@ Check = re.search(r'\d+\.', input)
 
 if Check == None :
 
-    
     print("False")
 
 else :
