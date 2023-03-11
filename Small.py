@@ -2,7 +2,7 @@ import re
 
 input = input()
 
-Check = re.search(r'[A-Z]+' , input)
+Check = re.search(r'function [A-Z]+[a-z]*[A-Z]*' , input)
 
 if Check == None :
 

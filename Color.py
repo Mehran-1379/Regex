@@ -2,7 +2,7 @@ import re
 
 input = input()
 
-Color = re.search(r'# ^[A-F]|^[0-9][A-F]|[0-9][A-F]|[0-9][A-F]|[0-9][A-F]|[0-9][A-F]$|[0-9]$' , input)
+Color = re.search(r'#\s*[A-F 0-9]{6}' , input)
 
 if Color != None :
 
